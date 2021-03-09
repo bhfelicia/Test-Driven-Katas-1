@@ -6,6 +6,6 @@ describe("twoSum", () => {
     expect(twoSum([1, 2], 4)).to.eql([]);
   });
   it("twoSum finds two distinct elements that sum up to a target and return their indices in an array", () => {
-    expect(twoSum([1, 2, 3], 5)).to.eq([1, 2]);
+    expect(twoSum([1, 2, 3], 5)).to.eql([1, 2]);
   });
 });
